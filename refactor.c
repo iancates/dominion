@@ -1,9 +1,7 @@
-smithy: The part that tells the program to discard the card is missing. This means that the smithy card will stay in the players hand.
+Mine: For the mine card I removed a break statement from the loop statement that deals with discarding trashed cards. By doing this more cards will be discarded then should be.
 
-adventurer: When checking how many cards to discard from temp hand. The z-1>0 in the for loop was changed to z>0 This will cause the cards to not be discarded propery.
+Adventurer: Changed the loop counter from z-1>0 to z>0 in a for loop that checks how many cards should be discarded from the temp hand. This change will cause the cards to not be discarded properly.
 
-village: The number of actions is increased by 0 instead of 2
+Smithy: The part of the code that discards the smithy card after its use has been removed. Meaning the card will stay in the players hand after it has been used.
 
-Mine: The break statement in the discard trashed card loop was removed. Meaning that more cards then should be will be discarded.
-
-
+Village: The card will not increase the number of player actions as it should.
